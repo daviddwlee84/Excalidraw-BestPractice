@@ -5,6 +5,7 @@ Primary Links
 - [Excalidraw](https://excalidraw.com/)
 - [Excalidraw (with LaTeX)](https://math.preview.excalidraw.com/) (math preview)
 - [Excalidraw+](https://plus.excalidraw.com/plus) (paid application with additional (cloud) features)
+- [Exsliding](https://exsliding.sandroroth.com/) (third-party non-open-sourced)
 
 Use case
 
@@ -109,3 +110,13 @@ Host Excalidraw server (haven't use it yet)
 ### Excalidraw in Obsidian
 
 - [zsviczian/obsidian-excalidraw-plugin: A plugin to edit and view Excalidraw drawings in Obsidian](https://github.com/zsviczian/obsidian-excalidraw-plugin)
+
+### Excalidraw Presentation
+
+1. Subscribe [Excalidraw+](https://plus.excalidraw.com/)
+2. [Exsliding](https://exsliding.sandroroth.com/) ([Presentation Mode · Issue #253 · excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/issues/253#issuecomment-1786450778))
+3. Use Marp: create multiple `*.excalidraw.png` => example: [Marp.md](Marp.md)
+   - [Marp: Markdown Presentation Ecosystem](https://marp.app/#get-started)
+   - [marp-team/marp: The entrance repository of Markdown presentation ecosystem](https://github.com/marp-team/marp?tab=readme-ov-file)
+   - [marp-team/marp-cli: A CLI interface for Marp and Marpit based converters](https://github.com/marp-team/marp-cli)
+     - `npx @marp-team/marp-cli@latest -w Marp.md`
