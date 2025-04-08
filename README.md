@@ -6,6 +6,7 @@ Primary Links
 - [Excalidraw (with LaTeX)](https://math.preview.excalidraw.com/) (math preview)
 - [Excalidraw+](https://plus.excalidraw.com/plus) (paid application with additional (cloud) features)
 - [Exsliding](https://exsliding.sandroroth.com/) (third-party non-open-sourced)
+- [Excalidraw (smart presentation)](https://excalidraw-smart-presentation.github.io/)
 
 Use case
 
@@ -115,7 +116,10 @@ Host Excalidraw server (haven't use it yet)
 
 1. Subscribe [Excalidraw+](https://plus.excalidraw.com/)
 2. [Exsliding](https://exsliding.sandroroth.com/) ([Presentation Mode · Issue #253 · excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/issues/253#issuecomment-1786450778))
-3. Use Marp: create multiple `*.excalidraw.png` => example: [Marp.md](Marp.md)
+3. [Excalidraw Smart Presentation](https://excalidraw-smart-presentation.github.io/)
+   - [excalidraw-smart-presentation/excalidraw-smart-presentation.github.io: Excalidraw fork that helps in making presentations with smart animations](https://github.com/excalidraw-smart-presentation/excalidraw-smart-presentation.github.io)
+   - [How to Create Excalidraw Animations with Excalidraw Smart Presentation - DEV Community](https://dev.to/justin3go/how-to-create-excalidraw-animations-with-excalidraw-smart-presentation-3n16)
+4. Use Marp: create multiple `*.excalidraw.png` => example: [Marp.md](Marp.md)
    - [Marp: Markdown Presentation Ecosystem](https://marp.app/#get-started)
    - [marp-team/marp: The entrance repository of Markdown presentation ecosystem](https://github.com/marp-team/marp?tab=readme-ov-file)
    - [marp-team/marp-cli: A CLI interface for Marp and Marpit based converters](https://github.com/marp-team/marp-cli)
