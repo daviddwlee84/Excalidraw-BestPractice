@@ -14,7 +14,7 @@ Use case
    - Meeting & Presentation
 2. Quick notes (similar to [Milanote](https://www.milanote.com/refer/rcFGaMLt9ts7hljGQX))
 3. Embed chart in Markdown
-   - VSCode extension + edit `*.excalidraw.png`
+   - [VSCode extension + edit `*.excalidraw.png`](#embedded-scene-feature)
 4. Mermaid <--> Excalidraw
    - Most of the AI can generate Mermaid quite well, convert to Excalidraw for more flexible editing
    - Prioritize Flowchart, Sequence and Class Diagrams for better support
@@ -124,3 +124,14 @@ Host Excalidraw server (haven't use it yet)
    - [marp-team/marp: The entrance repository of Markdown presentation ecosystem](https://github.com/marp-team/marp?tab=readme-ov-file)
    - [marp-team/marp-cli: A CLI interface for Marp and Marpit based converters](https://github.com/marp-team/marp-cli)
      - `npx @marp-team/marp-cli@latest -w Marp.md`
+
+---
+
+### Embedded Scene Feature
+
+> Storing PNG (with metadata) into Git repository of a project, so that anyone could modify it later on (+ it can be displayed in any markdown file as it's just PNG).
+
+- [Idea: embed drawing source code into the exported PNG · Issue #414 · excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/issues/414)
+- [Excalidraw on X: "You can now embed the scene into the file when exporting to PNG/SVG, and later import it back. via @dluzar Try at https://t.co/74IIueHhs1 https://t.co/jzbr9SyRxM" / X](https://x.com/excalidraw/status/1316001446043750400)
+- [Using Excalidraw's Embedded Scene Feature for Collaborative Diagramming | Kevin Jalbert](https://kevinjalbert.com/using-excalidraws-embedded-scene-feature-for-collaborative-diagramming/)
+- [Portable Network Graphics (PNG) Specification (Third Edition)](https://www.w3.org/TR/png/#11textinfo)
